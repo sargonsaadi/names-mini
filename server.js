@@ -19,8 +19,8 @@ app.use(session({
 
 }))
 
-// app.use(express.static( __dirname + '/AngularApp/dist/AngularApp' ));  // <------ CONNECTS WITH ANGULAR APP
-app.use(express.static(path.join(__dirname, './static')));
+app.use(express.static( __dirname + '/AngularApp4/dist/AngularApp4' ));  // <------ CONNECTS WITH ANGULAR APP
+// app.use(express.static(path.join(__dirname, './static')));
 
 // app.set('views', path.join(__dirname, './views'));
 // app.set('view engine', 'ejs');
