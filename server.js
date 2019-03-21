@@ -32,6 +32,7 @@ require('./server/config/routes.js')(app);
 
 app.all("*", (req,res,next) => {
     res.sendFile(path.resolve("./static/index.html"))
+    // res.sendFile(path.resolve('/AngularApp4/dist/Angular4'))
 });
 
 var server = app.listen(8000,function(){
